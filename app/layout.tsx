@@ -25,6 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="uz">
+    <head><link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#16a34a" />
+    </head>
       <body className={`font-sans antialiased`}>
         {children}
         <Analytics />
